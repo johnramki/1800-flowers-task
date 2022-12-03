@@ -1,0 +1,20 @@
+.main {
+    background: #ffd89b;
+    background: -webkit-linear-gradient(to right, #ffd89b, #19547b);
+    background: linear-gradient(to right, #ffd89b, #19547b);
+}
+.grouped {
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.controlSearch {
+    border: 2px solid gray;
+    width: 80%;
+    border-radius: 4px;
+}
+.controlSearch::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+}
